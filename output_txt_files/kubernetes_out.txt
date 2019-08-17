@@ -2,6 +2,10 @@ E:\dockertry\DevOps_Microservices\project-ml-microservice-kubernetes>kubectl get
 NAME                      READY     STATUS    RESTARTS   AGE
 my-app-75f6fd5c6f-ftr5h   1/1       Running   0          4m
  * Debugger PIN: 290-543-927
+
+E:\dockertry\DevOps_Microservices\project-ml-microservice-kubernetes>kubectl port-forward my-app-75f6fd5c6f-ftr5h 8000:8000
+Forwarding from 127.0.0.1:8000 -> 8000
+
 [2019-08-16 10:57:19,794] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
 [2019-08-16 11:57:19,807] INFO in app: Inference payload DataFrame: 
