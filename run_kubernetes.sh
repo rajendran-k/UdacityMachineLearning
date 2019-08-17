@@ -17,5 +17,5 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
->kubectl port-forward my-app-75f6fd5c6f-ftr5h 8000:8000
+kubectl port-forward my-app-75f6fd5c6f-ftr5h 8000:8000
 
