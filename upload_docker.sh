@@ -10,6 +10,8 @@
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username rajendran1166 --password password
+docker tag my-image $dockerpath
 
 # Step 3:
 # Push image to a docker repository
